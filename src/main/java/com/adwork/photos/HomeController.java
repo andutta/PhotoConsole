@@ -40,9 +40,11 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		photosService.addToIndex(new Photos("title1", "subject1", "description1", "welcome"));
+		//photosService.addToIndex(new Photos("title1", "subject1", "description1", "welcome"));
 		
 		return "home";
 	}
+	
+	
 	
 }
